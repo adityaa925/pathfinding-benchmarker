@@ -1,0 +1,22 @@
+# build output
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.exe
+
+# generated benchmark output (commit curated results under docs/ instead)
+results/
+
+# datasets (large) -- download separately, see README
+data/
+*.gr
+*.co
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+__pycache__/
